@@ -1,0 +1,9 @@
+a:5:{i:0;s:213:"Error in file: "C:\xampp\htdocs\magento\app\code\core\Mage\Catalog\sql\catalog_setup\mysql4-upgrade-0.7.57-0.7.58.php" - SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'used_in_product_listing'";i:1;s:966:"#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Resource\Setup.php(645): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Resource\Setup.php(437): Mage_Core_Model_Resource_Setup->_modifyResourceDb('upgrade', '0.7.57', '1.6.0.0.19')
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Resource\Setup.php(320): Mage_Core_Model_Resource_Setup->_upgradeResourceDb('0.7.57', '1.6.0.0.19')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Resource\Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(417): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(343): Mage_Core_Model_App->_initModules()
+#6 C:\xampp\htdocs\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 C:\xampp\htdocs\magento\index.php(87): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:44:"/magento/index.php/install/wizard/installDb/";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:7:"default";}
